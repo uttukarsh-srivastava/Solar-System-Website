@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Universe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background: url('maxresdefault.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .nav {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+            z-index: 1000;
+        }
+        .nav a {
+            color: yellow;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .nav a:hover {
+            color: orange;
+            text-decoration: underline;
+        }
+        .title {
+            font-size: 80px;
+            text-transform: uppercase;
+            text-shadow: 4px 4px 10px rgba(0, 255, 255, 0.8);
+            margin-top: 50px;
+        }
+        .section {
+            width: 80%;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+            text-align: left;
+        }
+        .section h1 {
+            color: #00ffff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: white;
+            text-align: justify;
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            font-size: 18px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .footer a {
+            color: cyan;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#what_is_universe">What is the Universe?</a>
+        <a href="#beginning_of_universe">Beginning of Universe</a>
+        <a href="#big_bang">Big Bang</a>
+        <a href="image.html">More Images</a>
+    </div>
+    
+    <h1 class="title">The Universe</h1>
+    
+    <div class="section" id="what_is_universe">
+        <h1>What Is The Universe?</h1>
+        <img src="98.JPG" alt="Universe Image">
+        <p>
+            The Universe is all of space and spacetime and its contents, including planets, moons, stars, 
+            <a href="space.html" style="color: lightgreen; text-decoration: none;">galaxies</a>, intergalactic space, and all matter and energy. 
+            While the total size of the Universe is unknown, the observable Universe can be measured.
+        </p>
+    </div>
+    
+    <div class="section" id="beginning_of_universe">
+        <h1>Beginning of the Universe</h1>
+        <img src="32.jpg" alt="Big Bang">
+        <p>
+            The Big Bang theory is the leading cosmological model describing the Universe's evolution. 
+            Space and time emerged together approximately 13.8 billion years ago, with an initial state of extreme heat and density. 
+            As the Universe expanded, it cooled, allowing subatomic particles and atoms to form, leading to galaxies, stars, and planets.
+        </p>
+    </div>
+    
+    <div class="section" id="big_bang">
+        <h1>Big Bang</h1>
+        <img src="spectacular_sight-1920x1080.JPG" alt="Big Bang Explosion">
+        <p>
+            The Big Bang theory suggests the Universe started from an incredibly hot and dense state, expanding over billions of years. 
+            It explains the redshift of galaxies, the cosmic microwave background radiation, and the abundance of light elements. 
+            The Lambda-CDM model, a refined version, provides a comprehensive explanation of observations about the Universe.
+        </p>
+    </div>
+    
+    <div class="footer">
+        <p>
+            <a href="image.html">Click here for more images</a>
+        </p>
+    </div>
+</body>
+</html>
