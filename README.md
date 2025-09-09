@@ -1,4 +1,5 @@
 The Universe Website
+
 A multi-page static website built with HTML & CSS, exploring the theme of The Universe. The project demonstrates structured content layout, smooth internal navigation, and interactive styling through hover effects.
 
 Features:
