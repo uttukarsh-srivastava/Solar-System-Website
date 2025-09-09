@@ -2,6 +2,7 @@ The Universe Website
 
 A multi-page static website built with HTML & CSS, exploring the theme of The Universe. The project demonstrates structured content layout, smooth internal navigation, and interactive styling through hover effects.
 
+
 Features:
 
 🌍 Multi-page structure with seamless navigation
@@ -9,6 +10,7 @@ Features:
 📑 Structured layout for personal and course details
 🔗 Internal navigation between pages
 💫 Clean & responsive design (basic responsiveness with CSS)
+
 
 📂 Project Structure:
 
@@ -20,9 +22,11 @@ The-Universe/
 │── style.css         # Main stylesheet  
 └── assets/           # Images, icons, etc.  
 
+
 🚀 Getting Started:
 
 Clone the repository: git clone https://github.com/your-username/the-universe.git
+
 
 🛠️ Technologies Used:
 
